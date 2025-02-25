@@ -40,13 +40,13 @@
   
   @media ( width <= 576px) {
     .footer-logo{
-      justify-content: center;
-      width: 150px;
+      justify-content: left;
+      width: 100px;
     }
     .footer-list{
       display: grid;
       grid-template-columns: repeat(2,1fr);
-      margin-left: 70px;
+      margin-left: 30px;
       gap: 10px;
       /* text-align: center; */
     }
