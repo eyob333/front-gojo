@@ -1,0 +1,34 @@
+#header{
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  
+  #header h1{
+    color: #ffffff;
+    font-size: 2.4rem;
+    font-weight: 200;
+    margin: 0;
+  }
+  
+  .nav-btn{
+    display: flex;
+    padding-right: 5px;
+    gap: 20px;
+    /* width: 20%; */
+  }
+  
+  .nav-item{
+    border: none;
+    border-style: none;
+    border-radius: 0;
+
+  }
+  .nav-item h4{
+    letter-spacing: .18rem;
+    font-weight: 300;
+  }
+  .search-icon{
+    border: none;
+  }

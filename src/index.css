@@ -1,0 +1,42 @@
+/**************** commons *********************/
+                
+body {
+    /* background: rgb(199,224,213);
+    background: linear-gradient(90deg, rgba(199,224,213,1) 0%, rgba(185,212,203,1) 70%, rgba(136,181,169,1) 100%); */
+    /* background: rgb(199,224,213);
+    background: linear-gradient(90deg, rgba(199,224,213,1) 31%, rgba(185,212,203,1) 72%, rgba(136,181,169,1) 100%); */
+    /* background: rgb(203,228,217);
+    background: linear-gradient(90deg, rgba(203,228,217,1) 31%, rgba(157,188,178,1) 72%, rgba(95,154,138,1) 100%); */
+    /* background: rgb(224,215,219);
+    background: radial-gradient(circle, rgba(224,215,219,1) 0%, rgba(156,187,177,1) 50%); */
+    background: rgb(203,228,217);
+    background: linear-gradient(45deg, rgb(19, 50, 68) 70%,rgb(24, 67, 82) 75%,rgb(37, 83, 102) 90%, rgb(48, 104, 128) 100%);
+    padding: .1% 5%;
+  
+  }
+
+  h1, h2, h3, h4, h5, h6, p{
+    color: #ffff;
+    font-family: 'Shapeingo', sans-serif;
+                                                
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  button{
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: transparent;
+    color:  white;
+    width: 100%;
+  }
+  
+
+  @media ( 576px <= width <= 768px){
+    body {
+      overflow-x: hidden;
+    }
+  }
